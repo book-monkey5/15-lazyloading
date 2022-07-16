@@ -1,0 +1,17 @@
+// ...
+/*STRS*/import { BooksModule } from './books/books.module';/*STRE*/
+/*STRS*/import { AdminModule } from './admin/admin.module';/*STRE*/
+
+@NgModule({
+  // ...
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    /*STRS*/BooksModule,/*STRE*/
+    /*STRS*/AdminModule/*STRE*/
+  ],
+  // ...
+})
+export class AppModule { }
+
