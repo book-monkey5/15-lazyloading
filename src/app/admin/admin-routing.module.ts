@@ -5,16 +5,16 @@ import { BookEditComponent } from './book-edit/book-edit.component';
 
 const routes: Routes = [
   {
-    /*BS*/path: '',/*BE*/
+    path: '',
     redirectTo: 'create',
-    /*BS*/pathMatch: 'full'/*BE*/
+    pathMatch: 'full'
   },
   {
-    /*BS*/path: 'create',/*BE*/
+    path: 'create',
     component: BookCreateComponent,
   },
   {
-    /*BS*/path: 'edit/:isbn',/*BE*/
+    path: 'edit/:isbn',
     component: BookEditComponent,
   }
 ];
